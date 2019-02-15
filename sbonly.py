@@ -21,8 +21,8 @@ images = json.load(imagesOpen)
 stickers = json.load(stickersOpen)
 #===========
 print ("Memuat Akun BOT 1")
-#k1 = LINE() #Login Via QR
-k1 = LINE("EBJvNQofggOmWf5HkO93.ihkaRy7bAofD4DOsrMDF0W.eO6n6xmbPw+kEENT8LT+Re4+5NAhfT/dsXT6KvJ9uo0")
+k1 = LINE() #Login Via QR
+#k1 = LINE("EBJvNQofggOmWf5HkO93.ihkaRy7bAofD4DOsrMDF0W.eO6n6xmbPw+kEENT8LT+Re4+5NAhfT/dsXT6KvJ9uo0")
 k1.log("\nToken BOT1=> " + str(k1.authToken))
 print ("Sukses Login Akun BOT")
 #===========
